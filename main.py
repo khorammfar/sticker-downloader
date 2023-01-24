@@ -5,8 +5,8 @@ from PIL import Image, UnidentifiedImageError
 class Client(pyrogram.Client):
     
     def __init__(self):
-        self.API_KEY = (0, '',)
-        self.API_TOKEN = ""
+        self.API_KEY = (15191079, '315b102a75e9382be971f4b26dbef6f4',)
+        self.API_TOKEN = "1720394991:AAE_BtVNLDe46rYKwLcgyR5RA96J9mGv7MY"
         self.PROXY = dict(scheme="http", hostname="127.0.0.1", port=8118)
         
         super(Client, self).__init__(
