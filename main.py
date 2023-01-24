@@ -1,6 +1,7 @@
 import cv2
 import pyrogram
 from PIL import Image, UnidentifiedImageError
+import os
 
 class Client(pyrogram.Client):
     
@@ -23,6 +24,9 @@ class Client(pyrogram.Client):
             )
         )
         
+        if not os.path.exists('temp'):
+            os.mkdir('temp')
+
         self.run()
 
     def on_convert(self, client:pyrogram.Client, message:pyrogram.types.Message):
