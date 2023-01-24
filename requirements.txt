@@ -1,0 +1,6 @@
+numpy==1.24.1
+opencv-python==4.7.0.68
+Pillow==9.4.0
+pyaes==1.6.1
+Pyrogram==2.0.97
+PySocks==1.7.1
